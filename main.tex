@@ -75,20 +75,15 @@ The radius of convergence of the series
 \hfill {(GATE MA-28 (2022))}
 \section*{\textit{\textbf{Solution:}}}
 \input{table/table}
+On comparing $X(z)$ with Z-transform formula\\ 
 \begin{align}
-x(n) =& 3\sum_{n=0}^{\infty} 3^{n}z^{2n}, \quad z \in \mathbb{C}\\
-=&3\sum_{n=0}^{\infty} {(3z^{2})}^{n}\\
-=&\frac{3}{1-3z^{2}}\\
-    =& \frac{3}{(1-\sqrt{3}z)(1+\sqrt{3}z)}\\
-    =& \frac{3}{2} \left(\frac{1}{1-\sqrt{3}z}+\frac{1}{1+\sqrt{3}z}\right)\\
-    =&\frac{3}{2}\left(\frac{z^{-1}}{z^{-1}-\sqrt{3}}+\frac{z^{-1}}{z^{-1}+\sqrt{3}}\right)\\
-    =&\frac{3}{2}\left(1- \frac{\sqrt{3}}{\sqrt{3}-z^{-1}}+1 -\frac{\sqrt{3}}{z^{-1}+\sqrt{3}}\right)\\
-    \end{align}
-     $\therefore$ For inverse Z transform,
-     \begin{align}
-    \implies \frac{3}{2}\left(2\delta(n)+ \left(\frac{1}{\sqrt{3}}\right)^n - \left(\frac{-1}{\sqrt{3}}\right)^n\right)
-\end{align}  
-
+x(n)=&3{(3z^{3})}^{n}
+\end{align}
+Now,
+\begin{align}
+X(z) =& 3\sum_{n=0}^{\infty} 3^{n}z^{2n}, \quad z \in \mathbb{C}\\
+=&3\sum_{n=0}^{\infty} {(3z^{2})}^{n}
+ \end{align}
  For Radius of Convergence,
  \begin{align}
 |3z^2| < 1\\
