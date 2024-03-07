@@ -77,7 +77,9 @@ The radius of convergence of the series
 \input{table/table}
 On comparing $X(z)$ with Z-transform formula\\ 
 \begin{align}
-x(n)=&3{(3z^{3})}^{n}
+x(n)=&
+\begin{cases}
+0 & ,\text{odd $n$} \\ 3^{\frac{n+1}{2}}& ,\text{even $n$}\end{cases}
 \end{align}
 Now,
 \begin{align}
